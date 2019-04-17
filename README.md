@@ -11,7 +11,9 @@ Usage:
     $ python3 add-quick-charts.py <model> <org> <pattern>
     
 **model** - the HDX dataset identifier of the model dataset to use for Quick Charts
+
 **org** - the HDX org identifier for the datasets being processed
+
 **pattern** - a regular expression matching the identifiers of the datasets to be updated (the model will be skipped)
 
 
