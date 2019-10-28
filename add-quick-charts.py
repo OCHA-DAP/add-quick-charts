@@ -19,7 +19,8 @@ org = sys.argv[3]
 # Connect to CKAN
 crawler = ckancrawler.Crawler(
     ckan_url=config.CONFIG.get("ckanurl"),
-    apikey=config.CONFIG.get("apikey")
+    apikey=config.CONFIG.get("apikey"),
+    delay=0
 )
 
 # Look up the model view
